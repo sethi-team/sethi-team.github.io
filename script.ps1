@@ -317,9 +317,13 @@ $tweaks = @(
 	
 	 "UnpinStartMenuTiles",
 	
-	 "UnpinTaskbarIcons"
+	 "UnpinTaskbarIcons",
 
 	### Auxiliary Functions ###
+	
+	
+	#### lakshay
+	"Lakshay"
 )
 
 #########
@@ -340,6 +344,11 @@ Function InstallTitusProgs {
 Function InstallAdobe {
 	Write-Output "Installing Adobe Acrobat Reader"
 	choco install adobereader -y
+}
+
+Function Lakshay {
+	Write-Output "Installing Lakshay's most loved apps"
+	choco install vscode googlechrome git github-desktop ditto nodejs-lts bitmeteros teamviewer -y
 }
 
 Function InstallJava {
