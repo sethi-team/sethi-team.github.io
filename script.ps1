@@ -283,7 +283,7 @@ $tweaks = @(
 	
 	 "UninstallWorkFolders",       # "InstallWorkFolders",
 	
-	 "InstallLinuxSubsystem",      # "UninstallLinuxSubsystem",
+	 #"InstallLinuxSubsystem",       "UninstallLinuxSubsystem",
 	
 	 "UninstallHyperV",
 	
