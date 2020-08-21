@@ -348,7 +348,7 @@ Function InstallAdobe {
 
 Function Lakshay {
 	Write-Output "Installing Lakshay's most loved apps"
-	choco install vscode googlechrome git github-desktop ditto nodejs-lts bitmeteros teamviewer -y
+	choco install vscode googlechrome git github-desktop ditto nodejs-lts bitmeteros teamviewer python winrar -y
 }
 
 Function InstallJava {
