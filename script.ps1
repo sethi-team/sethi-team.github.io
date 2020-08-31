@@ -271,7 +271,8 @@ $tweaks = @(
 	
 	 "UninstallThirdPartyBloat",     # "InstallThirdPartyBloat",
 	
-	 "UninstallWindowsStore",      # "InstallWindowsStore",
+	 "UninstallWindowsStore",      
+	 
 	
 	 "DisableXboxFeatures",          # "EnableXboxFeatures",
 	
@@ -323,7 +324,9 @@ $tweaks = @(
 	
 	
 	#### lakshay
+	"InstallWindowsStore",
 	"Lakshay"
+
 )
 
 #########
@@ -349,6 +352,7 @@ Function InstallAdobe {
 Function Lakshay {
 	Write-Output "Installing Lakshay's most loved apps"
 	choco install vscode googlechrome git github-desktop ditto nodejs-lts bitmeteros teamviewer python winrar manictime zoom -y
+	
 }
 
 Function InstallJava {
